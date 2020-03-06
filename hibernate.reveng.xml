@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.org/dtd/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+  <table-filter match-catalog="cji" match-name="authorities"/>
+  <table-filter match-catalog="cji" match-name="users"/>
+  <table-filter match-catalog="cji" match-name="user_user_profile"/>
+  <table-filter match-catalog="cji" match-name="user_profile"/>
+  <table-filter match-catalog="cji" match-name="cat_grupos"/>
+  <table-filter match-catalog="cji" match-name="cat_patios"/>
+  <table-filter match-catalog="cji" match-name="tbl_empresas"/>
+  <table-filter match-catalog="cji" match-name="tbl_representantes"/>
+</hibernate-reverse-engineering>

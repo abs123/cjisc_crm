@@ -1,0 +1,13 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- importamos las configuraciones Hibernate -->
+    <import resource="spring/applicationContext-hibernate.xml"/>
+
+    <!-- NO es necesario ya que lo hace el component scan con la anotacion: @Repository("estudianteDao")
+	<bean id="estudianteDao" class="com.bolsadeideas.ejemplos.dao.HibernateEstudianteDao" />
+    -->
+    
+</beans>
